@@ -1,0 +1,20 @@
+Umrechnen der Zahl 37 ins Binärsystem:
+37 : 2 = 18 R 1
+18 : 2 = 9  R 0
+9  : 2 = 4  R 1
+4  : 2 = 2  R 0
+2  : 2 = 1  R 0
+1 :  2 = 0  R 1
+
+-> 37 = 100101 im Binärsystem
+-> Fülle auf 8 Bit auf -> 37 = 00100101 als Maschinenzahl
+
+Umrechnung -37:
+37 = 00100101
+invertiere jedes Bit
+->   11011010
+addiere 1 dazu
+->   11011011 = -37
+
+Umrechnung 1011,101
+-> 2^0 + 2^1 + 2^3 + 2^-1 + 2^-3 = 11,625
